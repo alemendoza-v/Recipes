@@ -1,0 +1,3 @@
+2023-05-21 20:00:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RECIPES" not found; SQL statement:
+insert into recipes (id, description, directions, ingredients, name) values (null, ?, ?, ?, ?) [42102-200]
